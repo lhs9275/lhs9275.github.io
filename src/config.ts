@@ -35,8 +35,8 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
+      company: "SELAB@HKNU",
+      title: "LLMs for Software Engineering and Medical AI",
       dateRange: " May 2025 - Present",
       bullets: [
         "AgentRepair: Multi-Agent, AST-Anchored, Retrieval-Augmented Program Repair for Cold-Start Environments",
@@ -46,23 +46,12 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "HanKyong National University",
+      degree: "Computer Science",
+      dateRange: "2022 - present",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "International Conference on Dependable Systems and Their Applications (DSA2025)",
+  
       ],
     },
   ],
