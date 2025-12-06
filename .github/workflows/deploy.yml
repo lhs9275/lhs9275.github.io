@@ -1,0 +1,33 @@
+name: Deploy Astro site to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]   # main 브랜치 기준으로 배포
+  workflow_dispatch:      # Actions 탭에서 수동 실행도 가능
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install, build, and upload
+        uses: withastro/action@v3   # Astro 공식 액션
+        # 필요하면 여기 with: { node-version, package-manager } 등 설정 가능
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
