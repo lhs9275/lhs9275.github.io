@@ -14,21 +14,21 @@ export const siteConfig = {
     {
       name: "Seoul City Cultural Events Notifier",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "Seoul City Cultural Events Notifier_School_assignment",
       link: "https://github.com/lhs9275/Seoul-City-Cultural-Events-Notifier_School_assignment",
       skills: ["JS", "HTML"],
     },
     {
-      name: "Air-Pollution-Inquiry-Mashup_School_assignmen",
+      name: "Air-Pollution-Inquiry-Mashup_School_assignment",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+        "Air-Pollution-Inquiry-Mashup_School_assignmen",
       link: "https://github.com/lhs9275/Air-Pollution-Inquiry-Mashup_School_assignment",
       skills: ["JS", "HTML"],
     },
     {
       name: "Seoul-Public-Library-Search-Mashup_School_assignment",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+        "Seoul-Public-Library-Search-Mashup_School_assignment",
       link: "https://github.com/lhs9275/Seoul-Public-Library-Search-Mashup_School_assignment",
       skills: ["JS", "HTML"],
     },
