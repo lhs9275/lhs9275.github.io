@@ -8,7 +8,7 @@ export const siteConfig = {
     github: "https://github.com/lhs9275",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "I’m a developer working in a university lab in South Korea, researching and developing bug fixing using large language models. I’m interested in both backend and frontend development, and I enjoy improving code quality and performance. My goal is to continuously grow as an engineer.",
   skills: ["Javascript", "React", "Node.js", "Python", "JAVA", "Docker"],
   projects: [
     {
