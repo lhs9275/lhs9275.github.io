@@ -2,7 +2,7 @@ name: Deploy Astro site to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # main 브랜치 기준으로 배포
+    branches: [ master ]  
   workflow_dispatch:      # Actions 탭에서 수동 실행도 가능
 
 permissions:
